@@ -1,0 +1,185 @@
+body {
+    background-color: rgb(210, 234, 255);
+    margin:0 auto;
+}
+
+.buttons {
+    margin: 0;
+    background: rgb(231, 170, 159);
+    text-align: center;
+    padding:1%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    padding-bottom: 4.6%;
+    padding-top:0.5%;
+    height: 20%;
+}
+
+.button {
+    border-style: solid;
+    border-color: rgb(66, 221, 213);
+    background: rgb(199, 228, 225);
+    padding:0.7%;
+    margin:0.5%;
+    margin-top:0.5%;
+    text-decoration: none;
+    color:black;
+    display: inline-table;
+    border-bottom-left-radius: 15%;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
+}
+
+a:hover {
+    border-color: rgb(4, 77, 58);
+}
+
+.current {
+    border-color:rgb(4, 77, 58) !important; 
+}
+
+#leftsidebar {
+    background-color: rgb(211, 151, 141);
+    width: 50%;
+    float: left;
+    height: 150%;
+    border-bottom-left-radius: 15%;
+}
+
+#rightsidebar {
+    background-color: rgb(211, 151, 141);
+    width: 50%;
+    float: right;
+    text-align: right;
+    margin:0;
+    height: 150%;
+    border-bottom-right-radius: 15%;
+}
+
+.container {
+    text-align:center;
+    display:flex;
+    height: 2.8%;
+    justify-content: space-between;
+}
+
+.textScreen {
+    float:inherit;
+    background-color: white;
+    text-align: center;
+    margin-right: 35%;
+    margin-left: 35%;
+    height: 70%;
+    border-bottom-left-radius: 15%;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
+    padding:1%;
+    box-shadow: 10px 10px 5px grey;
+    margin-bottom: 5%;
+}
+
+.textScreen1 {
+    float:inherit;
+    background-color: white;
+    text-align: center;
+    margin-right: 35%;
+    margin-left: 35%;
+    height: 157%;
+    border-radius: 10%;
+    padding:1%;
+    box-shadow: 10px 10px 5px grey;
+    margin-bottom: 5%;
+}
+
+
+h1,p {
+    font-family:'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+@keyframes rbb {
+    14% {background-color: red;}
+    28% {background-color: orange;}
+    42% {background-color: yellow;}
+    57% {background-color: green;}
+    71% {background-color: blue;}
+    85% {background-color: indigo;}
+    100% {background-color: violet;}
+}
+
+@keyframes move {
+    0% {left: 0px;}
+    50% {left: 87%;}
+    100% {left: 0px;}
+}
+
+@keyframes transform {
+    0% {
+        transform: scale(0.3);
+        background-color: red;
+        border-radius: 60%;
+    }
+    50% {
+        transform: scale(0.7);
+        background-color: orange;
+        border-radius: 30%;
+    }
+    100% {
+        transform:scale(1);
+        background-color: yellow;
+        border-radius: 10%;
+    }
+}
+
+@keyframes middle {
+    from {left:0 px;}
+    to {left:50%;}
+}
+
+.rbb {
+    animation-duration:15s;
+    animation-name: rbb;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 10%;
+}
+
+
+.move {
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    background-color: rgb(27, 3, 27);
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-timing-function: linear;
+    border-radius: 15%;
+}
+
+.move2 {
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    background-color: rgb(27, 3, 27);
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-timing-function: ease;
+    border-radius: 15%;
+}
+
+.transform {
+    animation-name: transform;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width:100px;
+    height:100px;
+    text-align: center;
+    position: relative;
+    animation-direction: alternate;
+    margin-left: 37%;
+    margin-right: 37%;
+}

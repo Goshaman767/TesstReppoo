@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(210, 234, 255);
+    margin:0 auto;
+}
+
+.buttons {
+    margin: 0;
+    background: rgb(231, 170, 159);
+    text-align: center;
+    padding:1%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    padding-bottom: 4.6%;
+    padding-top:0.5%;
+    height: 20%;
+}
+
+.button {
+    border-style: solid;
+    border-color: rgb(66, 221, 213);
+    background: rgb(199, 228, 225);
+    padding:0.7%;
+    margin:0.5%;
+    margin-top:0.5%;
+    text-decoration: none;
+    color:black;
+    display: inline-table;
+    border-bottom-left-radius: 15%;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
+}
+
+a:hover {
+    border-color: rgb(4, 77, 58);
+}
+
+.current {
+    border-color:rgb(4, 77, 58) !important; 
+}
+
+#leftsidebar {
+    background-color: rgb(211, 151, 141);
+    width: 50%;
+    float: left;
+    height: 150%;
+    border-bottom-left-radius: 15%;
+}
+
+#rightsidebar {
+    background-color: rgb(211, 151, 141);
+    width: 50%;
+    float: right;
+    text-align: right;
+    margin:0;
+    height: 150%;
+    border-bottom-right-radius: 15%;
+}
+
+.container {
+    text-align:center;
+    display:flex;
+    height: 2.8%;
+    justify-content: space-between;
+}
+
+.textScreen {
+    float:inherit;
+    background-color: white;
+    text-align: center;
+    margin-right: 35%;
+    margin-left: 35%;
+    height: 120%;
+    border-bottom-left-radius: 15%;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
+    padding:1%;
+    box-shadow: 10px 10px 5px grey;
+    margin-bottom: 5%;
+}
+
+h1,p {
+    font-family:'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+
+
